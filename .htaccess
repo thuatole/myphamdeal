@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^my-pham-deal$ index.php?p=deal_trangchu
+RewriteRule ^gioi-thieu$ index.php?p=gioithieu
+RewriteRule ^deal-gia-tot$ index.php?p=deal_giatot
+RewriteRule ^lien-he$ index.php?p=lienhe
+RewriteRule ^tro-giup$ index.php?p=trogiup
+RewriteRule ^chi-tiet/(.*)$ index.php?p=chitietdeal&idDeal=$1
